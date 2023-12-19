@@ -1,0 +1,38 @@
+/* global */
+:root {
+    --primary-color:#b99470
+}
+body {
+    margin:0;
+}
+h1,h2,h3 {
+    margin:0
+}
+section {
+    margin-top: 100px;
+}
+.section-title {
+    text-align:right;
+    border-right: 4px solid  var(--primary-color);
+    margin-right: 5%;
+}
+
+/* header */
+.navbar {
+    background-color: #b99470 !important;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* hero */
+.work  .card {
+    padding:0 !important
+}
+.work  .card img {
+    width:100%;
+    height:220px
+}
+.work .row-padding {
+    padding-bottom: 20px;
+}
