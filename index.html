@@ -10,43 +10,57 @@
 </head>
 <body>
     <!-- header section -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-                <a class="navbar-brand" href="#"><h1>Simin Anaraki</h1></a>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
-                        <a class="nav-link" href="#">Work</a>
-                        <a class="nav-link" href="#">Contact Me</a>
-                    </div>
-                </div>
+          <a class="navbar-brand" href="#"><h1>Simin Anaraki</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- hero section -->
-      <section class="hero">
+      <section class="hero" id="about">
         <div class="container">
             <div class=" row justify-content-center">
-                <img class="col-lg-4" src="./image/IMG_6848.JPG" />
+                <img class="col-lg-4 col-md-8 col-sm-10" src="./image/IMG_6848.JPG" />
                 <div class="col-lg-6 align-self-center  ">
-                    <h2>Junior Front-End Developer</h2>
+                    <h2>Simin Anaraki<br/></h2>
+                    <h3>Junior Front-End Developer</h3>
+                    <p class="mt-3">I began my career in the IT world, where I spent quite a few years. But, my real love was always programming. So, one day, I decided to be daring and follow my heart. It turned out to be one of the best choices I ever made. Now, I get to do what I'm truly passionate about every day and I'm always excited to learn more. In the tech world, there's a never-ending adventure of new things to explore!</p>
                 </div>
             </div>
         </div>
       </section>
       <!-- work section -->
-      <section class="work">
+      <section class="work" id="work">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 section-title">
-                    <h2>Work</h2>
+                    <h2  class="fs-1">Work</h2>
                 </div>
                 <div class="col-lg-4 ">
                     <div class="row row-padding">
                         <div class="card" style="width: 25rem;">
                             <img src="./image/hepta.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <p class="card-text">Hepta Travel and Tours Agency</p>
+                              <a href="https://siminanaraki.github.io/Hepta/" target="_blank" class="btn">Live Demo</a>
                             </div>
                         </div>
                     </div>
@@ -54,8 +68,8 @@
                         <div class="card" style="width: 25rem;">
                             <img src="./image/horiseon.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <p class="card-text"> Heriseon Marketing Agency</p>
+                              <a href="https://siminanaraki.github.io/Simin-FirstWeekChallenge/" target="_blank" class="btn">Live Demo</a>
                             </div>
                         </div>
                     </div>
@@ -65,8 +79,8 @@
                         <div class="card" style="width: 25rem;">
                             <img src="./image/Screenshot 2023-12-18 161720.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <p class="card-text">Simple Portfolio by using grid</p>
+                              <a href="https://siminanaraki.github.io/Simin-SecondWeekChallenge/" target="_blank" class="btn --bs-box-shadow-lg ">Live Demo</a>
                             </div>
                         </div>
                     </div>
@@ -74,8 +88,8 @@
                         <div class="card" style="width: 25rem;">
                             <img src="./image/prework.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <p class="card-text">Front End Study Guide</p>
+                              <a href="https://siminanaraki.github.io/prework-study-guide/" target="_blank" class="btn ">Live Demo</a>
                             </div>
                         </div>
                     </div>
@@ -84,43 +98,66 @@
         </div>
       </section>
       <!-- skills section -->
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 section-title">
-                    <h2>Skills</h2>
+                    <h2 class="fs-1" >Skills</h2>
                 </div>
                 <div class="col-lg-1 flex-holder">
-                    <i class="fa-brands fa-github"></i>
-                    <p>Git</p>
+                    <i class="fa-brands fa-github fs-5"></i>
+                    <p class="fs-5">Git</p>
                 </div>
                 <div class="col-lg-1 flex-holder">
-                    <i class="fa-brands fa-html5"></i>
-                    <p>HTML</p>
+                    <i class="fa-brands fa-html5 fs-5"></i>
+                    <p class="fs-5">HTML</p>
                 </div>
                 <div class="col-lg-1 flex-holder">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <p>CSS</p>
+                    <i class="fa-brands fa-css3-alt fs-5"></i>
+                    <p class="fs-5">CSS</p>
                 </div>
                 <div class="col-lg-2 flex-holder">
-                    <i class="fa-brands fa-bootstrap"></i>
-                    <p>Bootstrap</p>
+                    <i class="fa-brands fa-bootstrap fs-5"></i>
+                    <p class="fs-5">Bootstrap</p>
                 </div>
                 <div class="col-lg-1 flex-holder">
-                    <i class="fa-brands fa-js"></i>
-                    <p>Jacascript</p>
+                    <i class="fa-brands fa-js fs-5"></i>
+                    <p class="fs-5">Jacascript</p>
                 </div>
       </section>
       <!-- contact section  -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 section-title">
-                    <h2>Contact Me</h2>
+                <div class="col-lg-3 section-title ">
+                    <h2 class="fs-1" >Contact Me</h2>
+                </div>
+                <div class="col-lg-8 d-flex justify-content-lg-between flex-md-wrap ">
+                    <div class="d-flex align-items-lg-center space fs-5 ">
+                        <i class="fa-solid fa-phone-flip"></i>
+                        <p>078787878</p>
+                    </div>
+                    <div class="d-flex justify-content-lg-between align-items-lg-center space fs-5">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>simin.anaraki@gmail.com</p>
+                    </div>
+                    <div class="d-flex  justify-content-lg-between align-items-lg-center space fs-5">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/SiminAnaraki">Github</a>
+                    </div>
+                    <div class="d-flex justify-content-lg-between align-items-lg-center space fs-5">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/simin-anaraki/">Linkedin</a>
+                    </div>
                 </div>
             </div>
       </section>
-
+      <!-- footer section -->
+      <footer>
+        <div class="container">
+            <p>Copyright © 2023 <a href="#about">Simin Anaraki</a> All Rights Reserved.</p>
+        </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
