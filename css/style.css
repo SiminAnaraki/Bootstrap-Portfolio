@@ -104,9 +104,13 @@ footer a:hover {
     .row-padding{
         padding:10px !important
     }
-    /* .skills .flex-holder {
-        width:30%
-    } */
+    .contact h2 {
+       font-size: 28px !important;
+    }
+    .contact .space {
+        font-size: 18px !important;
+    }
+   
 }
 @media only screen and (max-width:768px) {
     .work .normal-work {
@@ -115,4 +119,10 @@ footer a:hover {
     .work .small-work {
         display:flex;
     }
+    .contact h2 {
+        font-size: 21px !important;
+     }
+     .contact .space {
+         font-size: 14px !important;
+     }
 }
